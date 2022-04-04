@@ -1,6 +1,5 @@
 import { TableCell, TableRow, Typography } from '@mui/material';
 import React from 'react';
-import "./Stocks.css";
 
 const Stocks = ({ row }) => {
     const { name, money, percentage } = row;
@@ -12,7 +11,11 @@ const Stocks = ({ row }) => {
                     {`£${money}`}
                 </Typography>
             </TableCell>
-            <TableCell className='third-row'>{percentage}</TableCell>
+            <TableCell>
+                <Typography sx={{ color: "#4E8356", fontWeight: "bold" }}>
+                    {percentage}
+                </Typography>
+            </TableCell>
         </TableRow>
     );
 };

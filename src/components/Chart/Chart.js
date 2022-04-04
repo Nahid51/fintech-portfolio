@@ -1,6 +1,6 @@
 import { Box, Button, Container, Typography } from '@mui/material';
 import React from 'react';
-import { LineChart, Line, ResponsiveContainer, XAxis, Tooltip, Label, Text } from 'recharts';
+import { LineChart, Line, ResponsiveContainer, XAxis, Tooltip } from 'recharts';
 import "./Chart.css";
 
 const Chart = () => {

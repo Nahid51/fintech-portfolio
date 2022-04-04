@@ -4,6 +4,7 @@ import Paper from '@mui/material/Paper';
 import "./Details.css";
 import Stocks from './Stocks/Stocks';
 import { Button, Typography } from '@mui/material';
+import TipsSlide from './TipsSlide/TipsSlide';
 
 const Details = () => {
     const [allData, setAllData] = useState([]);
@@ -78,7 +79,9 @@ const Details = () => {
                         }
                     </Box>
 
-                    <div>3</div>
+                    <div>
+                        <TipsSlide />
+                    </div>
                 </div>
             </Container>
         </div>

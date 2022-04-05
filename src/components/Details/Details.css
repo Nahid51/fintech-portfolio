@@ -1,12 +1,12 @@
 .detail-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 5rem 0 5rem 0;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    margin: 5rem 0 5rem 0 !important;
 }
 
 @media only screen and (max-width: 570px) {
     .detail-section {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
     }
 }
